@@ -60,9 +60,9 @@ def main():
         print('Usage:\npython classify.py <image file>')
         sys.exit(-1)
    
- 	#
- 	# classfiy
- 	#
+    #
+    # classfiy
+    #
     print('content:\n')
     print('>  ' + ImageClassifier.predict(sys.argv[1]) + '  <\n')
 
