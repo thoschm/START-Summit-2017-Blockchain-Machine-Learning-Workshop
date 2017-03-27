@@ -17,4 +17,9 @@ For details, please view the workshop presentation.
 # Setup
 I really recommend using Linux at this point. The installation guidelines will focus on Ubuntu Linux 16.04 LTS, but should be similar for other distributions.
 
+We need to install Python 2.7 first:
+- sudo apt-get install python2.7
+
+
+
 
