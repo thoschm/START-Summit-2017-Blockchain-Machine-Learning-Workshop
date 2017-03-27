@@ -12,7 +12,9 @@ For details, please view the workshop presentation.
 - contract.sol: contains the smart contract code in solidity language
 - installContract.py: Python script for sending our contract to the Blockchain
 - user.py: Python script that contains the actual chat client
+- classify.py: Python script to classifiy an image file
 
 # Setup
+I really recommend using Linux at this point. The installation guidelines will focus on Ubuntu Linux 16.04 LTS, but should be similar for other distributions.
 
 
