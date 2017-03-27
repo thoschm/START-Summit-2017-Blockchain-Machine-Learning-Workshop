@@ -5,6 +5,14 @@ Presentation Material and Sample Code from the Blockchain and Machine Learning W
 The purpose of this code is to demonstrate in a simple example, how to bring Blockchain technology, smart contracts and Machine Learning together.
 It implements a simple chat client that can transmit messages, images and tags to the Blockchain. Tags are automatically extracted via a simple Deep Neural Network using the Keras Python Package with Tensorflow backend.
 In addition to just sending messages, the client also supports listening for new messages on the Blockchain from other participants.
+For details, please view the workshop presentation.
+
+# Files
+- runTestnet.sh: launches a local development Blockchain for easy testing
+- contract.sol: contains the smart contract code in solidity language
+- installContract.py: Python script for sending our contract to the Blockchain
+- user.py: Python script that contains the actual chat client
 
 # Setup
+
 
