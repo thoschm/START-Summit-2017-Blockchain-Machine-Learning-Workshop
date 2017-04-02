@@ -25,7 +25,9 @@ We need to install Python 2.7, pip and git first:
 Install current nodejs version:
 - inside the Terminal enter on a new line:
 - curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+- [enter key]
 - sudo apt-get install -y nodejs
+- [enter key]
 
 Now let's clone the workshop code:
 - inside the Terminal enter on a new line:
