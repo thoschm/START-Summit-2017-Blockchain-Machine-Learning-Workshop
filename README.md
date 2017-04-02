@@ -20,13 +20,15 @@ I really recommend using Linux at this point. The installation guidelines will f
 We need to install Python 2.7, pip and git first:
 - open a Linux Terminal and enter the following command:
 - sudo apt-get install python2.7 python-pip git
-- [enter]
+- [enter key]
 
 Now let's clone the workshop code:
 - inside the Terminal enter on a new line:
 - cd
 - git clone https://github.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop.git workshop_code
-- [enter]
+- [enter key]
+
+
 
 
 
