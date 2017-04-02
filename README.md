@@ -49,7 +49,7 @@ Now let's clone the workshop code:
 - [enter key]
 - cd workshop_code/code
 - [enter key]
-- python classify.py img.jpg
+- 
 - [enter key]
 
 
