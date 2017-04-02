@@ -19,7 +19,7 @@ I really recommend using Linux at this point. The installation guidelines will f
 
 We need to install Python 2.7, pip and git first:
 - open a Linux Terminal and enter the following command:
-- sudo apt-get install python2.7 python-pip git
+- sudo apt-get install python2.7 python-pip git build-essential
 - [enter key]
 
 Now let's clone the workshop code:
