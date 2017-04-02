@@ -44,6 +44,7 @@ Now let's clone the workshop code:
 - git clone https://github.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop.git workshop_code
 - [enter key]
 - cd workshop_code/code
+- [enter key]
 
 
 
