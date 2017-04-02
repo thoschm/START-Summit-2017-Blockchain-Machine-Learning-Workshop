@@ -23,10 +23,14 @@ We need to install Python 2.7, pip, curl and git first:
 - [enter key]
 
 Install current nodejs version:
-- inside the Terminal enter on a new line:
+- inside the Terminal:
 - curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 - [enter key]
 - sudo apt-get install -y nodejs
+- [enter key]
+
+Install the blockchain test environment:
+- sudo npm install -g ethereumjs-testrpc
 - [enter key]
 
 Now let's clone the workshop code:
