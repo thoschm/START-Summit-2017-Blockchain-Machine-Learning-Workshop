@@ -43,9 +43,14 @@ Now let's clone the workshop code:
 - cd
 - git clone https://github.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop.git workshop_code
 - [enter key]
+
+# Simple Image Classification Example
+- cd
+- [enter key]
 - cd workshop_code/code
 - [enter key]
-
+- python classify.py img.jpg
+- [enter key]
 
 
 
