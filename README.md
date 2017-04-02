@@ -33,8 +33,11 @@ Install the blockchain test environment:
 - sudo npm install -g ethereumjs-testrpc
 - [enter key]
 
+Install additional Python packages:
+- pip install -U pip
+- pip install -U numpy keras tensorflow
+
 Now let's clone the workshop code:
-- inside the Terminal enter on a new line:
 - cd
 - git clone https://github.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop.git workshop_code
 - [enter key]
