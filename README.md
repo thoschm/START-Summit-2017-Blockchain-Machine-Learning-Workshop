@@ -17,8 +17,15 @@ For details, please view the workshop presentation.
 # Setup
 I really recommend using Linux at this point. The installation guidelines will focus on Ubuntu Linux 16.04 LTS, but should be similar for other distributions.
 
-We need to install Python 2.7 first:
-- sudo apt-get install python2.7
+We need to install Python 2.7, pip and git first:
+- open a Linux Terminal and enter the following command:
+- sudo apt-get install python2.7 python-pip git
+- enter
+
+Now let's clone the workshop code:
+- inside the Terminal enter on a new line:
+- cd
+- git clone 
 
 
 
