@@ -35,7 +35,9 @@ Install the blockchain test environment:
 
 Install additional Python packages:
 - sudo pip install -U pip
+- [enter key]
 - sudo pip install -U numpy keras tensorflow
+- [enter key]
 
 Now let's clone the workshop code:
 - cd
