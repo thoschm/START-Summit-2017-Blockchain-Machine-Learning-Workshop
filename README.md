@@ -230,5 +230,30 @@ filter set for messages on topics: ['tree_frog', 'hi', 'hello', '#how_are_you']
 ```
 With the 'listen' command I have set into listening mode to receive messages (this could run in parallel in the background but it's just a demo).
 
+Now, finally, take the other chat window, compose a new message and give it the image you have prepared:
+```
+Using TensorFlow backend.
+--------------------------------------------------------------------------------
+client software: EthereumJS TestRPC/v3.0.3/ethereum-js
+block: 1
+address: 0x0d56bafa9c8181199e99956a3f67eb937a47ce80
+--------------------------------------------------------------------------------
+found contract on blockchain!
+--------------------------------------------------------------------------------
+starting chat command line...
+>> send
+--------------------------------------------------------------------------------
+[composing new message]
+message....: Hi, this is a test message and will be stored inside the Blockchain along with a frog.
+image file.: image.jpg
+custom tags: #I_like_green_animals
+--------------------------------------------------------------------------------
+sending...
+precessing image...
+label: tree_frog
+done, transaction id: 0x39a707aab2f5993366ec762afe0f9a66c99f61d16ba4b03de31a057261260ffe
+>> 
+```
+
 
 
