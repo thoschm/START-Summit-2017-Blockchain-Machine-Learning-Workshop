@@ -76,7 +76,7 @@ cd workshop_code/code
 ```
 Here's the workshop slide:
 ![TestNet](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0033.jpg)
-And here our current output:
+And here's our current output:
 ```
 EthereumJS TestRPC v3.0.3
 
@@ -116,7 +116,6 @@ Gas Limit
 21489604
 
 Listening on localhost:8545
-
 ```
 
 We have now created a local testnet that will look and feel the same way as a'normal' node (RPC communication is the same).
@@ -152,3 +151,5 @@ contract_address:
 
 --------------------------------------------------------------------------------
 ```
+# Launching the chat client:
+
