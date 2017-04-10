@@ -228,7 +228,7 @@ commands: help, send, status, topics, search, listen
 filter set for messages on topics: ['tree_frog', 'hi', 'hello', '#how_are_you']
 >> listen
 ```
-With the 'listen' command I have set into listening mode to receive messages (this could run in parallel in the background but it's just a demo).
+With the 'listen' command I have set the chat client into listening mode to receive messages (this could run in parallel in the background but it's just a demo).
 
 Now, finally, take the other chat window, compose a new message and give it the image you have downloaded:
 ```
