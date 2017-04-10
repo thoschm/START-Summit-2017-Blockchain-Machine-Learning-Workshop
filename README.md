@@ -170,6 +170,10 @@ cd workshop_code/code
 python user.py 0x86817fbb2715c45d70163ba9de0b7af9c90f6282 0x0d56bafa9c8181199e99956a3f67eb937a47ce80
 ```
 Remember that we need to provide the address of our contract inside the chain and the address of our user account (let's take the first one in the list).
+Therefore:
+1) copy the contract address from the terminal where the contract was installed in the chain
+2) copy the 1st account address from the testnet terminal under 'Available Accounts'
+3) both will be given as arguments to the user.py program
 Output:
 ```
 Using TensorFlow backend.
