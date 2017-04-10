@@ -74,7 +74,7 @@ cd
 cd workshop_code/code
 ./runTestNet.sh
 ```
-
+![TestNet](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0033.jpg)
 
 
 
