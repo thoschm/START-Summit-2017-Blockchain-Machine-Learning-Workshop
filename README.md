@@ -20,29 +20,22 @@ I really recommend using Linux at this point. The installation guidelines will f
 We need to install Python 2.7, pip, curl and git first:
 - open a Linux Terminal and enter the following command:
 - sudo apt-get install python2.7 python-pip curl git build-essential
-- [enter key]
 
 Install current nodejs version:
 - inside the Terminal:
 - curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-- [enter key]
 - sudo apt-get install -y nodejs
-- [enter key]
 
 Install the blockchain test environment:
 - sudo npm install -g ethereumjs-testrpc
-- [enter key]
 
 Install additional Python packages:
 - sudo pip install -U pip
-- [enter key]
 - sudo pip install -U numpy keras tensorflow
-- [enter key]
 
 Now let's clone the workshop code:
 - cd
 - git clone https://github.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop.git workshop_code
-- [enter key]
 
 Last step of preparation - cloning a ready deep-learning model:
 - cd
@@ -52,11 +45,11 @@ Last step of preparation - cloning a ready deep-learning model:
 
 # Simple Image Classification Example
 - cd
-- [enter key]
 - cd workshop_code/code
-- [enter key]
-- 
-- [enter key]
+- [get some image file in there]
+- python classify.py image.jpg
+
+
 
 
 
