@@ -279,4 +279,4 @@ message from user 0x0d56bafa9c8181199e99956a3f67eb937a47ce80 (block 2):
 ```
 Also, the received image will be displayed:
 
-
+![Result](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/result.png)
