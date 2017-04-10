@@ -230,7 +230,7 @@ filter set for messages on topics: ['tree_frog', 'hi', 'hello', '#how_are_you']
 ```
 With the 'listen' command I have set into listening mode to receive messages (this could run in parallel in the background but it's just a demo).
 
-Now, finally, take the other chat window, compose a new message and give it the image you have prepared:
+Now, finally, take the other chat window, compose a new message and give it the image you have downloaded:
 ```
 Using TensorFlow backend.
 --------------------------------------------------------------------------------
@@ -255,5 +255,28 @@ done, transaction id: 0x39a707aab2f5993366ec762afe0f9a66c99f61d16ba4b03de31a0572
 >> 
 ```
 
+Now the magic happens inside the other chat window. Please note that the complete communication has taken place over the Blockchain, no other channels were used. Window 1 sends the message, image and tags to our smart contract inside the chain and window 2 listens for events and tags on the blockchain. If a new message with certain tags (which were automatically extracted from the image via machine learning) arrives, it will materialize message, image and tags from the chain:
+```
+Using TensorFlow backend.
+--------------------------------------------------------------------------------
+client software: EthereumJS TestRPC/v3.0.3/ethereum-js
+block: 1
+address: 0x0d56bafa9c8181199e99956a3f67eb937a47ce80
+--------------------------------------------------------------------------------
+found contract on blockchain!
+--------------------------------------------------------------------------------
+starting chat command line...
+>> help
+commands: help, send, status, topics, search, listen
+>> topics tree_frog hi hello #how_are_you
+filter set for messages on topics: ['tree_frog', 'hi', 'hello', '#how_are_you']
+>> listen
+new block detected (2)
+--------------------------------------------------------------------------------
+message from user 0x0d56bafa9c8181199e99956a3f67eb937a47ce80 (block 2):
+  content: Hi, this is a test message and will be stored inside the Blockchain along with a frog.
+  tags...: #I_like_green_animals #tree_frog
+
+```
 
 
