@@ -85,12 +85,8 @@ In the new console, enter:
 ```
 cd
 cd workshop_code/code
-python install
-
-
-
-
-
-
+python installContract.py
+```
+This will compile the smart contract from the file 'contract.sol' into byte-code and print it to the console. Also the code is sent to the Blockchain via transaction. To access it there, we need to remember the contract-address that is output as well.
 
 
