@@ -68,6 +68,13 @@ python classify.py image.jpg
 
 ![Architecture](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0032.jpg)
 
+## Starting the Blockchain testnet
+```
+cd 
+cd workshop_code/code
+./runTestNet.sh
+```
+
 
 
 
