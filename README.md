@@ -288,4 +288,4 @@ That's it. An decentralized chat demo application using Blockchain and Machine L
 - and finally, it shows how to combine ML and Blockchain in an easy way and provides the building-blocks for you the dive deeper into the matter
 
 - if you have questions, drop me an email
-- Btw: DataReply can build enterprise-ready Machine Learning and Blockchain solutions for you
+- Btw: DataReply can build enterprise-ready Machine Learning and Blockchain solutions for you ;-)
