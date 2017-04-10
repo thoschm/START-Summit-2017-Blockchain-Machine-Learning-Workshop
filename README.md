@@ -80,7 +80,12 @@ We have now created a local testnet that will look and feel the same way as a'no
 The addresses under 'Available Accounts' are the IDs that will identify our network users - like nicknames on a chat platform. Normally they would be sitting on difference computers distributed over the internet and the good news is, the workshop code will work in a 'real' Blockchain network without any modification. 
 
 ## Installing the smart contract on the chain
-
+Now open a new terminal and let the testnet run, we need it.
+In the new console, enter:
+```
+cd
+cd workshop_code/code
+python install
 
 
 
