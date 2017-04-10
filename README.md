@@ -74,7 +74,50 @@ cd
 cd workshop_code/code
 ./runTestNet.sh
 ```
+Here's the workshop slide:
 ![TestNet](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0033.jpg)
+And here our current output:
+```
+EthereumJS TestRPC v3.0.3
+
+Available Accounts
+==================
+(0) 0x0d56bafa9c8181199e99956a3f67eb937a47ce80
+(1) 0xc590c4d665805458171411ac442b1c8b291f32f5
+(2) 0x68b3555067cbd45d438ab6718d471e45ea658e97
+(3) 0x2b91ec12075da8e7c400788108aa37d77eede040
+(4) 0xa9e1315284a36b1cf03c008bf58f01e649641467
+(5) 0x0bdda62c2ec3b4cbcc7c4eef73da1151822552a5
+(6) 0x5bbeeb78b4dba70687e67f59efb087e759f61501
+(7) 0x07a2a4db9732210252bf672a7a02ff387a8bd793
+(8) 0x28b2cc00b3618dc16cc8db1cbe76a11bf59870db
+(9) 0x30e0284721f67667538edeb2bf894bdc515e883d
+
+Private Keys
+==================
+(0) f1961f0b7437d703815fe85ff3e1a2f9f92e3a050e74d2cf471006c20aa3ad16
+(1) 01307d3f762e45c483c45fe769cc2791e203e27837c911866e2de61e3b8db7fb
+(2) 58d8fb6e827ab4c84619d458abae27a7ec8553fcceb8adf602ec4f8e0ab2b277
+(3) d3ec9d32db5b128d0bad0ce5323badba618e327c90553463751cd631ebaeece4
+(4) 87c288352be5bbf38ecf22b571b4a2c8f8936e50ddd98ff678a4c5d0f5c5105c
+(5) 35bd1c6339e7eef3d7c879e363c89e23578d25289c5994b76f8542771e5fb1f2
+(6) e5895317d53a9422bc39ae0709e2074343f57666e290d27a7c12e4fb7adcfba6
+(7) 5e2e5fbfe292efe294ecfbf832a589e625fa4145a6069f841935c4eb61076d27
+(8) 053d66ed79f92307daae8db58280206a8a700ca864bf69fac8406a8ed29eda6a
+(9) c25bba1d0ccd6d8fc48efa5708427a5944c79a5f5e1a28b6ab7d28e1cd15ccf3
+
+HD Wallet
+==================
+Mnemonic:      enable debate helmet sport sort young flash ginger letter inside stone quiz
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Limit
+==================
+21489604
+
+Listening on localhost:8545
+
+```
 
 We have now created a local testnet that will look and feel the same way as a'normal' node (RPC communication is the same).
 The addresses under 'Available Accounts' are the IDs that will identify our network users - like nicknames on a chat platform. Normally they would be sitting on difference computers distributed over the internet and the good news is, the workshop code will work in a 'real' Blockchain network without any modification. 
