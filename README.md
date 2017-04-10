@@ -285,7 +285,7 @@ That's it. An decentralized chat demo application using Blockchain and Machine L
 - users are anonymous (nickname is a hash)
 - as long as people support the network, it cannot be taken down or modified 
 - it supports easy search for topics and messages (use the 'search' command within the chat console)
-- and finally, it shows how to combine ML and Blockchain in an easy way and provides the building-blocks for you the dive deeper into the matter
+- and finally, it shows how to combine ML and Blockchain in an easy way and provides the building-blocks for you to dive deeper into the matter
 
 - if you have questions, drop me an email
 - Btw: DataReply can build enterprise-ready Machine Learning and Blockchain solutions for you ;-)
