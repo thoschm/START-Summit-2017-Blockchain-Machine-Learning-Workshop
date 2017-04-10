@@ -22,7 +22,6 @@ We need to install Python 2.7, pip, curl and git first:
 - sudo apt-get install python2.7 python-pip curl git build-essential
 
 Install current nodejs version:
-- inside the Terminal:
 - curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 - sudo apt-get install -y nodejs
 
