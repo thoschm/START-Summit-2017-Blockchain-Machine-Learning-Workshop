@@ -187,4 +187,23 @@ found contract on blockchain!
 starting chat command line...
 >> 
 ```
-
+Now let's do the same in our second empty terminal, but with account address 2 as argument (the contract address remains the same):
+```
+cd
+cd workshop_code/code
+python user.py 0x86817fbb2715c45d70163ba9de0b7af9c90f6282 0xc590c4d665805458171411ac442b1c8b291f32f5
+```
+You see, the second parameter is different.
+Output:
+```
+Using TensorFlow backend.
+--------------------------------------------------------------------------------
+client software: EthereumJS TestRPC/v3.0.3/ethereum-js
+block: 1
+address: 0x0d56bafa9c8181199e99956a3f67eb937a47ce80
+--------------------------------------------------------------------------------
+found contract on blockchain!
+--------------------------------------------------------------------------------
+starting chat command line...
+>> 
+```
