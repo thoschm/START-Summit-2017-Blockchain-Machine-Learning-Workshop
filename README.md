@@ -276,7 +276,7 @@ new block detected (2)
 message from user 0x0d56bafa9c8181199e99956a3f67eb937a47ce80 (block 2):
   content: Hi, this is a test message and will be stored inside the Blockchain along with a frog.
   tags...: #I_like_green_animals #tree_frog
-
 ```
+Also, the received image will be displayed:
 
 
