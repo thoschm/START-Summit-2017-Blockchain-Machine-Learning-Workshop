@@ -76,6 +76,11 @@ cd workshop_code/code
 ```
 ![TestNet](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0033.jpg)
 
+We have now created a local testnet that will look and feel the same way as a'normal' node (RPC communication is the same).
+The addresses under 'Available Accounts' are the IDs that will identify our network users - like nicknames on a chat platform. 
+
+## Installing the smart contract on the chain
+
 
 
 
