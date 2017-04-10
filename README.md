@@ -23,7 +23,7 @@ I really recommend using Linux at this point. The installation guidelines will f
 ## We need to install Python 2.7, pip, curl and git first:
 ```
 open a Linux Terminal and enter the following command:
-sudo apt-get install python2.7 python-pip curl git build-essential
+sudo apt-get install python2.7 python-pip curl git build-essential libssl-dev
 ```
 
 ## Install current nodejs version:
