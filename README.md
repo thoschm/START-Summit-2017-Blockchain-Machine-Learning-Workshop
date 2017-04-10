@@ -162,4 +162,25 @@ contract_address:
 --------------------------------------------------------------------------------
 ```
 # Launching the chat client:
+Please open now two new terminal (and leave the testnet running, we still need it, since our smart contract in now inside the Blockchain). Also please have an arbitrary image ready (I like using images of frogs or beer, but that's just my preference).
+In the first one, enter:
+```
+cd
+cd workshop_code/code
+python user.py 0x86817fbb2715c45d70163ba9de0b7af9c90f6282 0x0d56bafa9c8181199e99956a3f67eb937a47ce80
+```
+Remember that we need to provide the address of our contract inside the chain and the address of our user account (let's take the first one in the list).
+Output:
+```
+Using TensorFlow backend.
+--------------------------------------------------------------------------------
+client software: EthereumJS TestRPC/v3.0.3/ethereum-js
+block: 1
+address: 0x0d56bafa9c8181199e99956a3f67eb937a47ce80
+--------------------------------------------------------------------------------
+found contract on blockchain!
+--------------------------------------------------------------------------------
+starting chat command line...
+>> 
+```
 
