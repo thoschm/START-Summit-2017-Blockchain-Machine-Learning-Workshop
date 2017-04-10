@@ -1,3 +1,5 @@
+![Intro](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0000.jpg)
+
 # START-Summit-2017-Blockchain-Machine-Learning-Workshop
 Presentation Material and Sample Code from the Blockchain and Machine Learning Workshop at START Summit 2017 in Switzerland
 
@@ -64,6 +66,14 @@ python classify.py image.jpg
 
 # Running the complete complete Blockchain + ML Demo
 
+![Architecture](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0032.jpg)
+
+## Starting the Blockchain testnet
+```
+cd 
+cd workshop_code/code
+./runTestNet.sh
+```
 
 
 
