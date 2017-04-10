@@ -66,6 +66,7 @@ python classify.py image.jpg
 
 # Running the complete complete Blockchain + ML Demo
 
+![Architecture](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0032.jpg)
 
 
 
