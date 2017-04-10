@@ -194,6 +194,7 @@ cd workshop_code/code
 python user.py 0x86817fbb2715c45d70163ba9de0b7af9c90f6282 0xc590c4d665805458171411ac442b1c8b291f32f5
 ```
 You see, the second parameter is different.
+
 Output:
 ```
 Using TensorFlow backend.
@@ -207,3 +208,27 @@ found contract on blockchain!
 starting chat command line...
 >> 
 ```
+
+## Testing the decentralized message Blockchain
+
+Take one of the two chat windows and let it listen for a certain tag. (I'll take tree_frog, since I know that my image will be classified as tree_frog, however, in normal use people will only be notified if a messages arrives that matches their topic filter).
+```
+Using TensorFlow backend.
+--------------------------------------------------------------------------------
+client software: EthereumJS TestRPC/v3.0.3/ethereum-js
+block: 1
+address: 0x0d56bafa9c8181199e99956a3f67eb937a47ce80
+--------------------------------------------------------------------------------
+found contract on blockchain!
+--------------------------------------------------------------------------------
+starting chat command line...
+>> help
+commands: help, send, status, topics, search, listen
+>> topics tree_frog hi hello #how_are_you
+filter set for messages on topics: ['tree_frog', 'hi', 'hello', '#how_are_you']
+>> listen
+```
+With the 'listen' command I have set into listening mode to receive messages (this could run in parallel in the background but it's just a demo).
+
+
+
