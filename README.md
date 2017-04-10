@@ -64,6 +64,16 @@ cd workshop_code/code
 python classify.py image.jpg
 ```
 
+When you run it the first time, it will download pre-trained network weights from the internet. No need to train on your own.
+Output:
+```
+Using TensorFlow backend.
+content:
+
+Downloading data from https://s3.amazonaws.com/deep-learning-models/image-models/imagenet_class_index.json
+>  tree_frog  <
+```
+
 # Running the complete complete Blockchain + ML Demo
 
 ![Architecture](https://raw.githubusercontent.com/thoschm/START-Summit-2017-Blockchain-Machine-Learning-Workshop/master/img/page_0032.jpg)
