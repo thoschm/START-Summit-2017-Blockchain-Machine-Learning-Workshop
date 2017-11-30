@@ -40,7 +40,7 @@ sudo npm install -g ethereumjs-testrpc solc
 ## Install additional Python packages:
 ```
 sudo pip install -U pip
-sudo pip install -U numpy keras==2.0.0 tensorflow ethjsonrpc h5py Pillow
+sudo pip install -U numpy keras==2.0.0 tensorflow ethjsonrpc h5py Pillow scipy
 ```
 
 ## Now let's clone the workshop code:
