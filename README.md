@@ -211,7 +211,7 @@ starting chat command line...
 
 ## Testing the decentralized message Blockchain
 
-Take one of the two chat windows and let it listen for a certain tag. (I'll take tree_frog, since I know that my image will be classified as tree_frog, however, in normal use people will only be notified if a messages arrives that matches their topic filter).
+Take one of the two chat windows and let it listen for a certain tag. (I'll take tree_frog, since I know that my image will be classified as tree_frog, however, in normal use people will only be notified if a messages arrive that match their topic filter).
 ```
 Using TensorFlow backend.
 --------------------------------------------------------------------------------
