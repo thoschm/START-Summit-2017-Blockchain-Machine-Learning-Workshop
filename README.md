@@ -34,7 +34,7 @@ sudo apt-get install -y nodejs
 
 ## Install the blockchain test environment:
 ```
-sudo npm install -g ethereumjs-testrpc
+sudo npm install -g ethereumjs-testrpc solc
 ```
 
 ## Install additional Python packages:
