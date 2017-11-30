@@ -32,6 +32,7 @@ import time
 RPC_HOST = '127.0.0.1'
 RPC_PORT = 8545
 CONTRACT = 'contract.sol'
+CONTRACT_COMPILED = 'contract_sol_ImgStorage.bin'
 GAS = 20000000
 WAIT_BLOCKS = 5
 
@@ -41,11 +42,9 @@ WAIT_BLOCKS = 5
 ##################################
 def main():
     #
-    # just load contract code from file (e.g. contract.sol)
+    # check
     #
-    assert os.path.isfile(CONTRACT) and 'contract file not found ({})'.format(CONTRACT)
-    with open(CONTRACT, 'r') as f:
-        CONTRACT_CODE = f.read()
+    assert os.path.isfile(CONTRACT) and 'contract file not found'
 
     #
     # now, just connect to our own blockchain node via rpc interface
@@ -65,8 +64,9 @@ def main():
     #
     print('-' * 80)
     print('compiling contract...')
-    compiled = rpc.eth_compileSolidity(CONTRACT_CODE)
-    contract_bin = compiled['code']
+    os.system('solcjs --bin {} > /dev/null'.format(CONTRACT))
+    with open(CONTRACT_COMPILED, 'r') as f:
+        contract_bin = f.read()
     print(contract_bin)
 
     #
